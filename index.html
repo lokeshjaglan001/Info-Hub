@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+<body onload="displayusers()">
+    <H1 class="heading">Info Hub</H1>
+    <div class="operations">
+        <button id="alldata" onclick="displayusers()">All Data</button>
+        <button id="names" onclick="allnames()">All Names</button>
+        <button id="emails" onclick="allemails()">All Emails</button>
+        <button id="ages" onclick="allages()">All Ages</button>
+        <button id="passwords" onclick="allpasswords()">All Passwords</button>
+    </div>
+    <form action="" id="form">
+        <input type="text" id="name" placeholder="First Name...." required>
+        <input type="text" id="surname" placeholder="Last Name...." required>
+        <input type="number" id="age" placeholder="Current Age...." min="1" max="99" required>
+        <input type="email" id="email" placeholder="Email ID...." required>
+        <input type="password" id="password" placeholder="Password...." minlength="8" maxlength="16" required>
+        <button id="submit-btn" type="reset" onclick="submitForm()">ADD</button>
+    </form>
+
+    <div id="result"></div>
+    <script src="script.js"></script>
+</body>
+</html>
+    <!-- <input type="text" id="poke">
+    <button class="click" onclick="data()">Click Me</button> -->
+    <!-- <div id="answer"></div> -->
