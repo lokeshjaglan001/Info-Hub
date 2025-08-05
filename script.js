@@ -37,7 +37,7 @@ function displayusers() {
             const [surname, age, email, password] = user[first_name];
 
             result.innerHTML += `
-                <div class="kaam">
+                <div class="work">
                     <a class="edit" onclick="editUser(${index})"><img src="edit.png" alt="Edit"></a>
                     <a class="delete" onclick="remove(${index})"><img src="delete.svg" alt="Delete"></a>
                 </div>
@@ -63,7 +63,7 @@ function allnames() {
             const [surname] = user[first_name];
 
             result.innerHTML += `
-                <div class="kaam">
+                <div class="work">
                     <a class="edit" onclick="editUser(${index})"><img src="edit.png" alt="Edit"></a>
                     <a class="delete" onclick="remove(${index})"><img src="delete.svg" alt="Delete"></a>
                 </div>
@@ -86,7 +86,7 @@ function allemails() {
             const [surname, age, email, password] = user[first_name];
 
             result.innerHTML += `
-                <div class="kaam">
+                <div class="work">
                     <a class="edit" onclick="editUser(${index})"><img src="edit.png" alt="Edit"></a>
                     <a class="delete" onclick="remove(${index})"><img src="delete.svg" alt="Delete"></a>
                 </div>
@@ -109,7 +109,7 @@ function allages() {
             const [surname, age, email, password] = user[first_name];
 
             result.innerHTML += `
-                <div class="kaam">
+                <div class="work">
                     <a class="edit" onclick="editUser(${index})"><img src="edit.png" alt="Edit"></a>
                     <a class="delete" onclick="remove(${index})"><img src="delete.svg" alt="Delete"></a>
                 </div>
@@ -132,7 +132,7 @@ function allpasswords() {
             const [surname, age, email, password] = user[first_name];
 
             result.innerHTML += `
-                <div class="kaam">
+                <div class="work">
                     <a class="edit" onclick="editUser(${index})"><img src="edit.png" alt="Edit"></a>
                     <a class="delete" onclick="remove(${index})"><img src="delete.svg" alt="Delete"></a>
                 </div>
