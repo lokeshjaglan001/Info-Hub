@@ -93,12 +93,12 @@ button{
     gap: 250px;
 }
 
-#delete{
+.delete{
     display: flex;
     justify-content: flex-end;
 }
 
-#edit{
+.edit{
     display: flex;
     justify-content: flex-start;
     height: 25px;
